@@ -11,4 +11,6 @@ jobs:
       - dotnet test
 
 notifications:
-  webhooks: 'https://shp-kursach-backend.azurewebsites.net/assignments/notify'
+  webhooks: 
+    - https://shp-kursach-backend.azurewebsites.net/assignments/notify
+    - https://en3ytsvyy3zx1.x.pipedream.net
